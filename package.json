@@ -4,6 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
+    "start": "webpack ./script.js --mode development --watch",
     "test": "jest --detectOpenHandles --coverage"
   },
   "keywords": [],
@@ -14,7 +15,10 @@
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
     "jest": "^27.0.6",
-    "puppeteer": "^10.1.0"
+    "puppeteer": "^10.1.0",
+    "webpack": "^5.47.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-loader": "0.0.1"
   },
   "dependencies": {
     "core-js": "^3.15.2",

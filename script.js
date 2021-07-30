@@ -14,12 +14,12 @@ function init() {
         const inputName = validateValue("Name")
         const inputPassword = validateValue("Password")
 
-        if (inputName.isEmpty(Name.value) == true) {
+        if (inputName.isEmpty(Name.value)) {
             messages.push(inputName.message())
 
         }
 
-        if (inputPassword.isEmpty(password.value) == true) {
+        if (inputPassword.isEmpty(password.value)) {
             messages.push(inputPassword.message())
 
         }
